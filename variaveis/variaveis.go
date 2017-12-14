@@ -26,7 +26,7 @@ var Cidade string //publica
 
 func main(){
 	//outro modo de criar uma variavel sem utilizar o "var"
-	local_trabalho := "Eduzz"
-	fmt.Printf("Local de Trabalho: %s \n", local_trabalho)
+	localTrabalho := "Eduzz"
+	fmt.Printf("Local de Trabalho: %s \n", localTrabalho)
 
 }
