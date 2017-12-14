@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"../pacotes/prefixo"
 	"../pacotes/operadora"
+	//"pacotes/operadora"
+	//"pacotes/prefixo"
 )
 
 var Username = "Jordana"
