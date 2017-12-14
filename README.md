@@ -1,1 +1,2 @@
 "# curso-go" 
+** No linux
