@@ -1,11 +1,16 @@
 package main
 
 import (
+	"curso-go/funcoes_basicas/matematica"
 	"fmt"
-	"../funcoes_basicas/matematica"
 )
 
-func main(){
+func teste() {
+	fmt.Printf("ola")
+}
+
+func main() {
+
 	resultado := matematica.Calculo(matematica.Multiplicador, 2, 5)
 	fmt.Printf("Resultado Multiplicação: %d\r\n", resultado)
 
@@ -24,4 +29,3 @@ func main(){
 	resultado, resto := matematica.DivisaoComResto(9, 4)
 	fmt.Printf("Resultado da Divisão: %d\r\ne resultado com resto:  %d\r\n", resultado, resto)
 }
-

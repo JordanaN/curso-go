@@ -9,14 +9,14 @@ import (
 //Tipos de variáveis basicas
 
 var endereco string // ""
-var telenone int //0
-var comprou bool //false
-var valor float64 // 0.00
+var telenone int    //0
+var comprou bool    //false
+var valor float64   // 0.00
 
 //maneira compacta de declarar variaveis
 var (
-	nome string
-	idade int
+	nome    string
+	idade   int
 	palavra rune
 )
 
@@ -24,7 +24,7 @@ var (
 var estado string //privada
 var Cidade string //publica
 
-func main(){
+func main() {
 	//outro modo de criar uma variavel sem utilizar o "var"
 	localTrabalho := "Eduzz"
 	fmt.Printf("Local de Trabalho: %s \n", localTrabalho)

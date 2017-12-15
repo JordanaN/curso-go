@@ -4,7 +4,6 @@ import (
 	"strconv"
 )
 
-
 //Cidade representa o prefixo da cidade
 var Cidade = 14
 

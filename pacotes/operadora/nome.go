@@ -1,9 +1,8 @@
 package operadora
 
 import (
+	"curso-go/pacotes/prefixo"
 	"strconv"
-	"../../pacotes/prefixo"
-	
 )
 
 var NomeOperadora = "Tim"

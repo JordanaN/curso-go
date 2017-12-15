@@ -1,7 +1,6 @@
 package matematica
 
-
-func Calculo(funcao func(int, int)int, x int, y int)int{
+func Calculo(funcao func(int, int) int, x int, y int) int {
 	return funcao(x, y)
 }
 
@@ -15,7 +14,7 @@ func Soma(x int, y int) int {
 
 func Divisao(x int, y int) (resultado int) {
 	resultado = x % y
-	return 
+	return
 }
 
 func Subtracao(x int, y int) int {
@@ -25,5 +24,5 @@ func Subtracao(x int, y int) int {
 func DivisaoComResto(x int, y int) (resultado int, resto int) {
 	resultado = x / y
 	resto = x % y
-	return 
+	return
 }
