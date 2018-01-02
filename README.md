@@ -1,2 +1,2 @@
-"# curso-go" 
-** No linux
+# curso-go
+
